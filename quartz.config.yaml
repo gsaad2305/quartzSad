@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: devblog
+  pageTitle: devsad
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -118,7 +118,7 @@ plugins:
   - source: "@quartz-community/remove-draft"
     enabled: true
   - source: "@quartz-community/explicit-publish"
-    enabled: false
+    enabled: true
   - source: "@quartz-community/unlisted-pages"
     enabled: true
     options: {}
@@ -167,7 +167,6 @@ plugins:
     layout:
       position: right
       priority: 10
-      condition: index
   - source: "@quartz-community/search"
     enabled: true
     layout:
@@ -208,7 +207,7 @@ plugins:
       priority: 30
       group: toolbar
   - source: "@quartz-community/reader-mode"
-    enabled: false
+    enabled: true
     layout:
       position: left
       priority: 35
@@ -232,10 +231,10 @@ plugins:
     options:
       links:
         GitHub: https://github.com/gsaad2305
-        Portfolio: https://discord.gg/cRFFHYye7t
+        Portfolio: https://devsad.vercel.app/
     layout:
       position: footer
-      priority: 10
+      priority: 50
   - source: "@quartz-community/recent-notes"
     enabled: false
   - source: "@quartz-community/spacer"

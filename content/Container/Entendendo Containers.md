@@ -1,6 +1,8 @@
 ---
-publsh: true
+publish: false
 ---
+Este documento começou a ser escrito em 14/09/2026, tem como finalidade documentar estudos sobres  **containers** e pontuar as diferenças entre containeres e virutalizações de máquinas.
+
 ## 1 . Definições
 #### O que é o Docker?
 O Docker é uma ferramenta projeta para facilitar a criação, implementação e execução de aplicativos utilizando containers. Docker foi feito para Linux, o Docker roda de forma nativa no kernel do Linux como os  **namespaces** (para isolamento)  e os **cgroups** (para controle de recursos)  ,enquanto Windows e Mac , precisam rodar uma "Virtualização" do kernel  Linux por de baixos dos panos para  rodar Docker por não ser nativos em seus Sistemas Operacionais.
