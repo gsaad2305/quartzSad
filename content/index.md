@@ -1,5 +1,5 @@
 ---
-publish: truee
+publish: true
 ---
 
 Sesões de Arquivos:
@@ -8,3 +8,5 @@ Sesões de Arquivos:
 	- [[Entendendo o processo de boot do Linux]]
 - Containers Docker:
 	- [[Entendendo Containers]]
+- Indelogias
+	- [[Comunismo]]

@@ -1,7 +1,6 @@
 ---
 publish: true
 ---
-
 A BovCapital é uma empresa voltada a estruturação de investimentos no agronegócio , sua proposta é aproximar o cliente de operações rurais, como aquisição e engorda de animais, compra de  insumos, ampliação de estruturas rurais e operações ligadas e energia e biocombustíveis.
 Combinando três elementos conhecimento no agronegócio, estruturação financeira e uso de tecnologia.
 Hoje cada frente possui finalidade, prazo, necessidade de capital e dinâmica próprios. O cliente escolhe uma modalidade compatível com seu perfil e com valor disponível.
