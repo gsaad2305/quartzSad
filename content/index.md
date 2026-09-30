@@ -10,3 +10,6 @@ Sesões de Arquivos:
 	- [[Entendendo Containers]]
 - Indelogias
 	- [[Comunismo]]
+- Segurança
+- [[Introdução]]
+- [[Segurança e Desafios da Criptografia]]

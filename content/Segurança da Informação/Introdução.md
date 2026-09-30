@@ -1,5 +1,11 @@
+---
+publish: true
+---
+
 A Segurança da Informação é uma área crítica que visa proteger dados e sistemas contra ameaças e vulnerabilidades.
-A segurança da informação envolve práticas e técnicas para previnir acessos não autorizados, proteger a integridade dos dados e assegurar que as informações estejam disponíveis apenas para aqueles que tenham permissão.![[images.jpeg|700]]
+A segurança da informação envolve práticas e técnicas para previnir acessos não autorizados, proteger a integridade dos dados e assegurar que as informações estejam disponíveis apenas para aqueles que tenham permissão.
+
+![[images.jpeg|698]]
 ### Conceitos básicos
 - Confidencialidade: Garantia de que a informação seja acessível apenas a pessoas autorizadas.
 - Integridade: Proteção contra alterações não autorizadas, garantindo que a informaçõa seja completa  e precisa.
@@ -19,3 +25,5 @@ Para garantir a confidencialidade são utilizadas várias técnicas e ferramenta
 > A segurança da informação desempenha um papel vital na proteção dos ativos de informaçãoe  manutenção de stakeholders
 
 %%Stakelhoders são partes interessadas em uma organização, projeto ou iniciativa direta ou indereta sobre ela, ou que sãi afetadas por suas ações e decisões.%%
+
+[[Segurança e Desafios da Criptografia]]
