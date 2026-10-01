@@ -1,6 +1,9 @@
 ---
 publish: true
 ---
+A criptografia é uma disciplina essencial que combina conceitos avançados de matemática e ciência da computação para proteger a informação. A criptografia se tornou à espinha dorsal da segurança digital
+
+
 ## Tipos de criptografia
 Embora existam sistemas híbridos (como os Internet Protocols SSL), a  maioria das técnicas de criptografia se enquadra em três categorias principais:
 
