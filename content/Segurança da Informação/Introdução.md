@@ -26,4 +26,4 @@ Para garantir a confidencialidade são utilizadas várias técnicas e ferramenta
 
 %%Stakelhoders são partes interessadas em uma organização, projeto ou iniciativa direta ou indereta sobre ela, ou que sãi afetadas por suas ações e decisões.%%
 
-[[Segurança e Desafios da Criptografia]]
+[[Criptografia]]

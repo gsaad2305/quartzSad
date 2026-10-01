@@ -1,6 +1,30 @@
 ---
 publish: true
 ---
+## Tipos de criptografia
+Embora existam sistemas híbridos (como os Internet Protocols SSL), a  maioria das técnicas de criptografia se enquadra em três categorias principais:
+
+### Criptografia de chave simétrica
+A criptografia de chave simétrica usa apenas uma chave no processo de criptografia e descriptografia. Nesses tipos de sistemas, cada usuário deve ter acesso à mesma chave privada. 
+As chaves podem ser compartilhadas por um canal de comunicação seguro, como um correio privado ou linha segura.
+Há dois tipos de chaves simétricas  
+**Cifra de bloco**: algoritimo de cifra que trabalha  em um bloco de dados de tamanho fixo. Por exemplo, se o tamanho do bloco for oito, oito bytes de texto simples serão criptografados por vez. Em operações de criptografia/descriptografia lida-se com dados maiores do que o tamanho do bloco, sendo chamado de cifra de baixo nível.
+**Cifra de fluxo**: as cifras de fluxo não funcionam em bloco, mas converte um bit(ou um byte) de dados de cada vez. Basicamente gera, uma cifra de fluxo de chabes com base na chave fornecida.
+Alguns exemplos de criptografia simétrica incluem os seguintes:
+- **Data Encryption Standard**: o Data Encryption Standard (DES) desenvolvido pela IBM no início da década de 70 e, embora  hoje seja considerado suscetível a ataques de força bruta, sua arquitetura ainda, mantém uma grande influência no campo da criptografia moderna.
+- **Advenced Encryption Standard**: a Advanced Encryption Standard (AES) é a primeira única cifra acessível ao público aprovada pela National Security Agency dos EUA para informações ultra secretas.
+### Criptografia de chave assimétrica
+Na criptografia de chaves assimétrica, um par de chave é usado:  uma chave pública e uma chave privada. Conhecida como criptografia de chave pública. A criptografia de chave pública é considerada mais segura do que as técnicas de criptografia simétrica porque, embora uma chave esteja disponível publicamente, a mensagem criptografada só pode ser descriptografada com a chave privada do destinatário pretendido.
+Exemplos de chaves assimétricas:
+ - **RSA**: batizado com nome dos seus fundadores  (Rivest, Shamier e Adleman) em 1977, o alogortitimo RSA é um dos mais antigos sistemas criptográficos de chave pública usados para transmissão segura de dados.
+ - **ECC**: a criptografia de curva elíptica é uma forma avançada de criptografia assimétrica que usa as estruturas algébricas de curvas elípticas para criar chaves de criptográficas fortes.
+
+### Algoritimos de hash
+Algoritimos de hash criptográficos geram uma cadeia de caracteres de saída de comprimento fixo  a partir de uma cadeia de caracteres de tamanho variável. A entrada serve de texto simples, e o hash de saída é a cifra. Para ter uma boa função hash:
+- **Resistentes a colisões**: se qualquer dado for modificado, um hash diferente será gerado para garantir a integridade dos dados.
+- **Undirecional**: A função hash  é irreversível.
+Para manter a segurança dos dados, bancos e outras empresas criptografam informações confidenciais, como senhas, em valor de hash e armazenam apenas o valor criptografado em seus bancos de dados., Sem saber a senha do usuário, o valor hash não pode ser descodificado.
+## Segurança e os Desafios da Criptografia
 Apesar de ser uma ferramenta poderosa, a criptografia não é infalível. Há vários desafios e ameaças que os especialistas em segurança devem considerar.
 ### Ataques de  força bruta
 Um ataque de força bruta usa o método de tentativa de erro para advinhar informações de login, chaves de criptografia ou encontrar uma página da Web oculta.  Invasores trabalham com todas as combinações possíveis na esperança de acertar.
