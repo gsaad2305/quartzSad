@@ -1,6 +1,7 @@
 ---
-publish: false
+publish: true
 ---
+# Entendendo Containers
 Este documento começou a ser escrito em 14/09/2026, tem como finalidade documentar estudos sobres  **containers** e pontuar as diferenças entre containeres e virutalizações de máquinas.
 
 ## 1 . Definições
