@@ -1,3 +1,6 @@
+---
+publish: true
+---
 # Permissões de Arquivos
 O comando  **chmod  -R 777**   defini que um  arquivo possui permissões de leitura, gravação e execução para proprietário, grupo e quaisquer usuários. Na forma :
 ```

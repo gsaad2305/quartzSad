@@ -1,3 +1,6 @@
+---
+publish: true
+---
 A BovCapital é uma empresa voltada a estruturação de investimentos no agronegócio , sua proposta é aproximar o cliente de operações rurais, como aquisição e engorda de animais, compra de  insumos, ampliação de estruturas rurais e operações ligadas e energia e biocombustíveis.
 Combinando três elementos conhecimento no agronegócio, estruturação financeira e uso de tecnologia.
 Hoje cada frente possui finalidade, prazo, necessidade de capital e dinâmica próprios. O cliente escolhe uma modalidade compatível com seu perfil e com valor disponível.
@@ -27,7 +30,7 @@ Financia os alimentos necessários para manter a produção funcionando. Na pecu
 ### Frente de ampliação
 Direcionado ao crescimento da capacidade produtiva. Essa frente está relacionada somente a uma necessidade real , compra de novos equipamentos,  compra de novas áreas ou terras, construção ou reforma de galpões e melhorias permanentes para aumentar a  capacidade operacional.
 
-### Frente de Energia e Biocombustíveis 
+### Frente de Energia e Biocombustíveis
 A frente de Energia reúne operações com características diferentes. Em uma linha, existe a produção de energia solar e a biogeração. Em outras a compra, distribuição e revenda de biocombustíveis, principalmente biodiesel e etanol.
 #### Energia solar e biogeração
 Na energia solar, a operação produz energia e pode direcionar sua comercialização conforme o modelo adotado. A biogeração se conecta à dinâmica rural e pode aproveitar recursos da prórpria atividade produtiva.

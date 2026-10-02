@@ -1,3 +1,6 @@
+---
+publish: true
+---
 # Entendendo Containers
 Este documento começou a ser escrito em 14/09/2026, tem como finalidade documentar estudos sobres  **containers** e pontuar as diferenças entre containeres e virutalizações de máquinas.
 
@@ -8,7 +11,7 @@ O Docker é uma ferramenta projeta para facilitar a criação, implementação e
 
 ![[schema.png]]
 
-####  Diferenças entre VMs e Containers 
+####  Diferenças entre VMs e Containers
 
 De forma bastante resumida uma Máquina Virtual  recria um sistema operacional om tudo que o sistema operacional precisa, containers reaproveita a arquitertura do kernel da máquina.
 
@@ -17,10 +20,10 @@ Um container utiliza o padrão de imagens, uma imagem reune todos os componentes
 ### Como as imagens de containers são geradas
 Imagens de containers é um acúmulo reunido de uma sucessão de camadas do sistema de arquivos é adicionada e empilhada  sobre a imagem base:
  - Bibliotecas: padrões de algoritimos e modelos de classes que os programadores podem utilizar para criar estruturas de dados comuns.
- - Binários: são  necessários para que arquivos executáveis para a implementação de diferentes programas e comandos. 
+ - Binários: são  necessários para que arquivos executáveis para a implementação de diferentes programas e comandos.
  - Dependências:  governam a criação e a operação de containers
  - Arquivos de configuração:  configurações necessárias para executar o contâiner em questão
- 
+
  A imagem de base é onde a maioria dos fluxos de trabalho de desenvolvimento baseados em containers começam. Muitas imagens compreendem dustibuições Linux básicas ou minímas O processo de criação de imagens de base permite que os desenvolvedores construam um ambiente compativel com imagens de containers padronizados.
 #### Padrão OCI de imagens de containers
 O OCI(Open Container Inciative) trata-se de uma especificação de código aberto que padroniza o formato das imagens de container para garantir que funciona de maneira idêntica em qualquer plataforma.
@@ -43,10 +46,10 @@ Um container é executado a partir de uma imagem. Uma imagem é construída usan
 	 -t: terminal
 	 -i iterativo
 	 ```
-- Contentores de lista: 
+- Contentores de lista:
 	```
 	docker ps -a
-	```  
+	```
  - Criar imagens a partir do Dockerfile:
 	  ```
 	  docker build -t myimage:version
@@ -120,7 +123,7 @@ docker compose -up
  ```
  docker compose down
  ```
- 
+
 Monitoramento das saídas dos container em execução e problemas de depuração:
 ```
 docker compose logs
