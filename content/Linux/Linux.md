@@ -1,0 +1,1 @@
+O Linux foi desenvolvido e lançado em 1991, baseando em uma distribuição chamada [Unix](https://pt.wikipedia.org/wiki/Unix) ,  por [**Linus Torvalds**](https://pt.wikipedia.org/wiki/Linus_Torvalds)
