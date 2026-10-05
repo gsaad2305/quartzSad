@@ -4,7 +4,12 @@ publish: true
 
 Sesões de Arquivos:
 - Linux
-	- [[permissões_de_arquivos]]
-	- [[Entendendo Linux]]
+	- [[Permissões de Arquivos]]
+	- [[Entendendo o processo de boot do Linux]]
 - Containers Docker:
-	- [[O que são Containers]]
+	- [[Entendendo Containers]]
+- Indelogias
+	- [[Comunismo]]
+- Segurança
+- [[Introdução]]
+- [[Criptografia]]
