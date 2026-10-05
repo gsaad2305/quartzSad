@@ -1,45 +1,19 @@
 ---
 publish: true
 ---
-A criptografia é uma disciplina essencial que combina conceitos avançados de matemática e ciência da computação para proteger a informação. A criptografia se tornou à espinha dorsal da segurança digital
-
-
-## Tipos de criptografia
-Embora existam sistemas híbridos (como os Internet Protocols SSL), a  maioria das técnicas de criptografia se enquadra em três categorias principais:
-
-### Criptografia de chave simétrica
-A criptografia de chave simétrica usa apenas uma chave no processo de criptografia e descriptografia. Nesses tipos de sistemas, cada usuário deve ter acesso à mesma chave privada. 
-As chaves podem ser compartilhadas por um canal de comunicação seguro, como um correio privado ou linha segura.
-Há dois tipos de chaves simétricas  
-**Cifra de bloco**: algoritimo de cifra que trabalha  em um bloco de dados de tamanho fixo. Por exemplo, se o tamanho do bloco for oito, oito bytes de texto simples serão criptografados por vez. Em operações de criptografia/descriptografia lida-se com dados maiores do que o tamanho do bloco, sendo chamado de cifra de baixo nível.
-**Cifra de fluxo**: as cifras de fluxo não funcionam em bloco, mas converte um bit(ou um byte) de dados de cada vez. Basicamente gera, uma cifra de fluxo de chabes com base na chave fornecida.
-Alguns exemplos de criptografia simétrica incluem os seguintes:
-- **Data Encryption Standard**: o Data Encryption Standard (DES) desenvolvido pela IBM no início da década de 70 e, embora  hoje seja considerado suscetível a ataques de força bruta, sua arquitetura ainda, mantém uma grande influência no campo da criptografia moderna.
-- **Advenced Encryption Standard**: a Advanced Encryption Standard (AES) é a primeira única cifra acessível ao público aprovada pela National Security Agency dos EUA para informações ultra secretas.
-### Criptografia de chave assimétrica
-Na criptografia de chaves assimétrica, um par de chave é usado:  uma chave pública e uma chave privada. Conhecida como criptografia de chave pública. A criptografia de chave pública é considerada mais segura do que as técnicas de criptografia simétrica porque, embora uma chave esteja disponível publicamente, a mensagem criptografada só pode ser descriptografada com a chave privada do destinatário pretendido.
-Exemplos de chaves assimétricas:
- - **RSA**: batizado com nome dos seus fundadores  (Rivest, Shamier e Adleman) em 1977, o alogortitimo RSA é um dos mais antigos sistemas criptográficos de chave pública usados para transmissão segura de dados.
- - **ECC**: a criptografia de curva elíptica é uma forma avançada de criptografia assimétrica que usa as estruturas algébricas de curvas elípticas para criar chaves de criptográficas fortes.
-
-### Algoritimos de hash
-Algoritimos de hash criptográficos geram uma cadeia de caracteres de saída de comprimento fixo  a partir de uma cadeia de caracteres de tamanho variável. A entrada serve de texto simples, e o hash de saída é a cifra. Para ter uma boa função hash:
-- **Resistentes a colisões**: se qualquer dado for modificado, um hash diferente será gerado para garantir a integridade dos dados.
-- **Undirecional**: A função hash  é irreversível.
-Para manter a segurança dos dados, bancos e outras empresas criptografam informações confidenciais, como senhas, em valor de hash e armazenam apenas o valor criptografado em seus bancos de dados., Sem saber a senha do usuário, o valor hash não pode ser descodificado.
-## Segurança e os Desafios da Criptografia
+## Segurança e Desafios da Criptografia
 Apesar de ser uma ferramenta poderosa, a criptografia não é infalível. Há vários desafios e ameaças que os especialistas em segurança devem considerar.
 ### Ataques de  força bruta
-Um ataque de força bruta usa o método de tentativa de erro para advinhar informações de login, chaves de criptografia ou encontrar uma página da Web oculta.  Invasores trabalham com todas as combinações possíveis na esperança de acertar.
-Esses ataques são feitos por "força bruta" reles utilizam tentativas excessivamente fortes para tentar "forçar" a entrada em suas contas privadas. Diferentes de outros ciberataques, que exploram vulnerabilidades de software, os ataques de força bruta utilizam poder computacional e automação para advinhar senhas ou chaves.
+Um ataque de força bruta usa o método de tentativa e erro para adivinhar informações de login, chaves de criptografia ou encontrar uma página da Web oculta.  Invasores trabalham com todas as combinações possíveis na esperança de acertar.
+Esses ataques são feitos por "força bruta" eles utilizam tentativas excessivamente fortes para tentar "forçar" a entrada em suas contas privadas. Diferentes de outros ciberataques, que exploram vulnerabilidades de software, os ataques de força bruta utilizam poder computacional e automação para advinhar senhas ou chaves.
 ### Criptografia Quântica
 A criptografia quântica se refere a vários métodos de cibersegurança  para criptografar e transmitir dados seguros com base nas leis naturalmente ocorrentes e imutáveis da mecânica quântica.
 Computadores quânticos que estão em desenvolvimento podem resolver problemas matemáticos, como grandes números de maneira exponencialmente mais rápida que computadores normais. Os computadores quânticos podem processar dados com técnica matemáticas inacessíveis aos computadores clássicos . Isso significa que eles conseguem dar estruturas aos dados e ajudar a descobrir padrões que os algoritimos clássicos deixam passar. O risco quântico se materializará de forma assimétrica, o que significa que alguns sistemas criptográficos falharão mais cedo que outros , dependendo do projeto do algoritimo e do tamanho da chave. Ao contrário do Y2K(termo para descrever a ameaça da computação quântica aos sistemas criptográficos atuais.) não haverá um único momento em que tudo quebrará de uma só vez; em vez disso, o risco quântico será percebido ao longo do tempo, abrangendo vários anos,  à medida que diferentes sistemas criptográficos se tornem vulneráveis em momentos diferentes.
 Mesmos os supercomputadores mais poderosos do mundo exigiriam milhares de anos para quebrar algoritimos de criptografia modernos, como Advanced Encryption Standard(AES) ou o RSA. 
-De acordo com o algoritimo de Shor,  fatorar um número grande em um computador clássico exigiria tanto poder computacional que um hacker levaria vidas antes de se aproximar. Enquanto um computador quântico totalmente funcional. caso seja aperfeiçoado, pode potencialmente encontrar em apenas alguns minutos.
-Por esse motivo, os casos para criptografia quântica são tão infinitos quanto existem casos de uso para qualquer forma de criptografia. Se algo, desde informações corporativas até segredos estatais, deve ser mantido seguro, quando a computação quântic otorna obsoletos os algoritimos criptográficos existentes. A criptografia quântica pode ser nosso único recurso para proteger dados privados.
-#### Criptografia Pós-Quântica
-O projeto d Post-Quantum Cryptography(PQC) do [Nist](https://csrc.nist.gov/projects/post-quantum-cryptography) lidera o esforço nacional e global para garantir a segurança eletrônica contra a futura ameaça dos computadores quânticos, máquinas que estão anos ou décadas de distancia eventualmente pode quebrar diversos sistemas que utilizam sistemas de criptografia. 
+De acordo com o algoritimo de Shor,  fatorar um número grande em um computador clássico exigiria tanto poder computacional que um hacker levaria vidas antes de se aproximar do resultado esperado. Enquanto um computador quântico totalmente funcional. caso seja aperfeiçoado, pode potencialmente encontrar em apenas alguns minutos.
+Por esse motivo, os casos para criptografia quântica são tão infinitos quanto existem casos de uso para qualquer forma de criptografia. Se algo, desde informações corporativas até segredos estatais, deve ser mantido seguro, quando a computação quântic o torna obsoletos os algoritimos criptográficos existentes. A criptografia quântica pode ser nosso único recurso para proteger dados privados.
+#### Solução com  Criptografia Pós-Quântica
+O projeto  Post-Quantum Cryptography(PQC) do [Nist](https://csrc.nist.gov/projects/post-quantum-cryptography) lidera o esforço nacional e global para garantir a segurança eletrônica contra a futura ameaça dos computadores quânticos, máquinas que estão anos ou décadas de distancia eventualmente poderem quebrar diversos sistemas que utilizam sistemas de criptografia. 
 Os algoritimos de criptografia  pós-quântica são baseados em diversos problemas matemáticos que seriam difíceis de resolver tanto computadores convecionais quanto para computadores quânticos.
 Essas são as seis áreas primárias da criptografia quântica segura:
 - Criptografia baseada em rede

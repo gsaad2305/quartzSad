@@ -1,9 +1,7 @@
 ---
 publish: true
 ---
-
-
-
+# Entendendo o processo de boot do Linux
 Entender o processo de boot e startup dos  prrocessos são importantes tanto para configuração , como para resolver problemas de inicialização.
 Existem duas sequências de eventos para inicializar um computador LInux e torna-lo utilizável boot e startup. O boot começa quando o computador é ligado e termina quando o **Kernel** é inicializado e o **systemd** é executado. O processo startup assume o controle e finaliza a tarefa de colocar o sistema Linux em estado executável.
 O sistema de boot do sistema e start é bastante simples de compreender. É  composto pelos seguintes passos que serão mais detalhados neste arquvio:
