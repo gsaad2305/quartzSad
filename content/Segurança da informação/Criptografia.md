@@ -1,8 +1,7 @@
 ---
 publish: true
 ---
-A criptografia é uma disciplina essencial que combina conceitos avançados de matemática e ciência da computação para proteger a informação. A criptografia se tornou à espinha dorsal da segurança digital
-
+A criptografia é uma disciplina essencial que combina conceitos avançados de matemática e ciência da computação para proteger a informação. A criptografia se tornou à espinha dorsal da segurança digital.
 
 ## Tipos de criptografia
 Embora existam sistemas híbridos (como os Internet Protocols SSL), a  maioria das técnicas de criptografia se enquadra em três categorias principais:
@@ -27,6 +26,37 @@ Algoritimos de hash criptográficos geram uma cadeia de caracteres de saída de 
 - **Resistentes a colisões**: se qualquer dado for modificado, um hash diferente será gerado para garantir a integridade dos dados.
 - **Undirecional**: A função hash  é irreversível.
 Para manter a segurança dos dados, bancos e outras empresas criptografam informações confidenciais, como senhas, em valor de hash e armazenam apenas o valor criptografado em seus bancos de dados., Sem saber a senha do usuário, o valor hash não pode ser descodificado.
+
+
+## Princípios Matemáticos Fundamentais
+A criptografia moderna depende de vários ramos da matemática para assegurar a segurança dos dados. Entre os principais conceitos matemáticos estão a teoria dos números, a álgebra linear, a teoria da informação e as curvas elípticas.
+1. **Teoria dos Números**: 
+	1. A teoria dos números é base de muitos algoritimos criptográficos, especialmente os assimétricos.
+	2. Números Primos: A criptografia RSA, por exemplo, baseia-se na fatoração de grandes números compostos em seus fatores primos.
+		A dificuldade em fatorar grande números primos assegura a segurança do algoritimo.
+	3. Funções Modulares: As operações modulares são fundamentais para muitos algoritmos criptográficos, onde o números são operados dentro de um certo intervalo, reduzindo a possibilidades de padrões repetitivos que possam ser explorados por atacantes.
+	
+2. **Algebra Linear**:
+	1. Utilizada em algoritimos de criptografia simétrica e em esquemas de codificação.
+	2. Matrizes e Determinantes: Matrizes são utilizadas para criar cifradores mais complexos .
+
+3. **Teoria da Informação**: 
+	1. Entropia: Medida da imprevisibilidade ou aleotriedade em um sistema criptográfico. Alta entropia significa que o sistema é mais seguro contra ataques.
+	2. Códigos de Correção de Erros: Asseguram que pequenas alterações no texto cifrado não resultem em grandes erros no texto claro decriptado. Isso é crucial para manter a integridade dos dados durante a transmissão.
+
+4. **Curvas Elípticas:
+		1. Criptografia de Curva Elíptica(ECC): Baseia-se em propriedades matemáticas das curvas elípticas. Permite chaves menores e,portanto, processamento mais rápido, enquanto mantém a segurança equivalente a outros metódos com chaves maiores.
+		2. Pontos em uma Curva Elíptica: Operações matemáticas realizadas sobre pontos em uma curva elíptica fornecem uma base para algoritimos criptográficos eficientes e seguros.
+
+## Criptografia em Redes Blockchain
+A criptografia desempenha um papel crucial no funcionamento de redes blockchain, como as utilizadas pelo blockchain e outras criptomoedas.
+
+### Hashing
+ - **Funções Hash**: utilizadas para gerar identificadores únicas para blocos de transações de criptomoedas, uma entrada Hash que transforma dados de entrada em uma string de comprimento fixo, que é praticamente impossível de reverter para os dados originiais.
+- Imutabilidade: a integridade do blockchain é garantida através do encadeamento de blocos, onde cada bloco contém um hash do bloco anterior. Qualquer alteração em um bloco invalida todos os blocos subsequentes.
+### Assinaturas digitais
+- Verificação de transações: cada transação na rede blockchain é assinado digitalmente, permitindo que nós da rede verifiquem a autenticidade das transações.
+- Chaves públicas e privadas: os usuários possuem pares de chaves para assinar transações e para verificar assinaturas , assegurando que apenas o proprietários legítimos possam autorizar a transferência dos fundos.
 ## Segurança e os Desafios da Criptografia
 Apesar de ser uma ferramenta poderosa, a criptografia não é infalível. Há vários desafios e ameaças que os especialistas em segurança devem considerar.
 ### Ataques de  força bruta
@@ -85,3 +115,6 @@ A criptografia é aplicada em várias áreas para garantir a segurança e integr
 #### Assinaturas Digitais:
 - Autenticidade e integridade: as assinaturas digitais garantem que um documento não foi alterado desde que foi assinado e que a assinatura é autêntica.
 - Algoritimos usados: RSA e ECC comumente usados para criar assinaturas digitais fornecendo um meio seguro de verificação.
+
+## Conclusão
+A criptografia é um campo dinâmico e essencial na era digital. Combinando princípios matemáticos complexos avançados da ciência da computação para proteger informações contra acesso não autorizado e garantir a integridade e a autenticidade dos dados. A medida que as tecnologias e as ameaças avançam evoluem, a criptografia devem avançar juntamente, buscando métodos cada vez mais seguros e eficientes para proteger a informação em um mundo cada vez mais interconectado
