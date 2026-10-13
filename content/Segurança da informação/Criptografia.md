@@ -117,4 +117,7 @@ A criptografia é aplicada em várias áreas para garantir a segurança e integr
 - Algoritimos usados: RSA e ECC comumente usados para criar assinaturas digitais fornecendo um meio seguro de verificação.
 
 ## Conclusão
-A criptografia é um campo dinâmico e essencial na era digital. Combinando princípios matemáticos complexos avançados da ciência da computação para proteger informações contra acesso não autorizado e garantir a integridade e a autenticidade dos dados. A medida que as tecnologias e as ameaças avançam evoluem, a criptografia devem avançar juntamente, buscando métodos cada vez mais seguros e eficientes para proteger a informação em um mundo cada vez mais interconectado
+A criptografia é um campo dinâmico e essencial na era digital. Combinando princípios matemáticos complexos avançados da ciência da computação para proteger informações contra acesso não autorizado e garantir a integridade e a autenticidade dos dados. A medida que as tecnologias e as ameaças avançam evoluem, a criptografia devem avançar juntamente, buscando métodos cada vez mais seguros e eficientes para proteger a informação em um mundo cada vez mais interconectado.
+
+
+[[Auditoria de Sistemas de Gestão]]
