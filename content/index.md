@@ -12,4 +12,4 @@ Sesões de Arquivos:
 	- [[Comunismo]]
 - Segurança
 - [[Introdução]]
-- [[Segurança e Desafios da Criptografia]]
+- [[Criptografia]]
